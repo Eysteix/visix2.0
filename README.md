@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Visix 2.0
 
-## Getting Started
+// ...existing code...
 
-First, run the development server:
+## Next.js Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project also includes a portfolio built with Next.js. Here are some key features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Server-Side Rendering (SSR)**: Ensures fast load times and better SEO.
+- **Static Site Generation (SSG)**: Pre-renders pages at build time for improved performance.
+- **API Routes**: Built-in API routes to handle backend logic.
+- **Dynamic Routing**: Supports dynamic routing for creating pages on the fly.
+- **CSS-in-JS**: Styled-components for scoped and maintainable styles.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Getting Started with the Next.js Portfolio
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To get started with the Next.js portfolio, follow these steps:
 
-## Learn More
+1. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Run the Development Server**:
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Build for Production**:
+    ```bash
+    npm run build
+    npm start
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Visit the Portfolio**:
+    Open your browser and navigate to `http://localhost:3000` to see the portfolio in action.
 
-## Deploy on Vercel
+// ...existing code...
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## About the Developer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Marvelous Ajao** is a passionate software engineer with expertise in building scalable web applications. With a strong background in JavaScript and frameworks like Next.js, Marvelous has a keen eye for detail and a commitment to delivering high-quality code. This portfolio showcases some of the projects and skills Marvelous has developed over the years.
+
+Connect with Marvelous on [LinkedIn](https://www.linkedin.com/in/marvelous-ajao) to learn more about his work and professional journey.
