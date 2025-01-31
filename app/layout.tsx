@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/header";
 import "./globals.css";
 import {Open_Sans} from  "next/font/google";
@@ -17,11 +18,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${sans.className} antialiased`}>
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
         <Header/>
         <main>{children}</main>
         <Footer/>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -1,11 +1,14 @@
-
+import Typewrite from "@/components/typewriter"
 
 const Home = ()=>{
+    const info:string[] = ["Welcome!!","My Name is Marvelous Adeola Ajao ", "I am a software engineer",]
     return (
-        <>
-       <p>Home</p>
-        
-        </>
+        <main className="h-screen">
+      
+        <section className="hero">
+         
+        </section>
+        </main>
     )
 }
 
