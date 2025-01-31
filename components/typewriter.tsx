@@ -9,6 +9,7 @@ const Typewrite = ({text}:{text:string[]}) => {
         strings:text,
         autoStart: true,
         loop: true,
+        
     }}
     />
 
